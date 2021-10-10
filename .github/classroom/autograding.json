@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test Superfluo",
+      "setup": "",
+      "run": "./gradlew test --tests MainTest.test00RequisitosBasicos",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    }
+  ]
+}
