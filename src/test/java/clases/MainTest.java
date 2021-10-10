@@ -3,7 +3,6 @@
  */
 package clases;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.DisplayName;
@@ -31,17 +30,5 @@ class MainTest extends TestBase{
 		assertTrue(true);
 	}
 	
-	@Test
-	@DisplayName("Hola Mundo")
-	/**
-	 * toString
-	 */
-	void test01() {
-		//InputStream salida = new ByteArrayInputStream(outputStreamCaptor.toByteArray());
-		//Scanner lectorSalida = new Scanner(salida);
-		Main.main(null);
-		assertEquals("Hola Mundo", outputStreamCaptor.toString().trim()/*lectorSalida.nextLine()*/);
-		//lectorSalida.close();
-	}
 
 }
